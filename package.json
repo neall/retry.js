@@ -1,0 +1,24 @@
+{
+  "name": "retry",
+  "version": "1.0.0",
+  "description": "Have an async operation that fails sometimes? Retry it!",
+  "main": "index.js",
+  "scripts": {
+    "test": "teenytest"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Neal Lindsay <neal.lindsay@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "teenytest": "^5.1.1",
+    "teenytest-promise": "^1.0.0",
+    "testdouble": "^3.9.2"
+  },
+  "teenytest": {
+    "plugins": [
+      "teenytest-promise"
+    ]
+  }
+}
