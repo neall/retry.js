@@ -12,9 +12,9 @@
   "author": "Neal Lindsay <neal.lindsay@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "teenytest": "^5.1.1",
+    "teenytest": "^5.3.0",
     "teenytest-promise": "^1.0.0",
-    "testdouble": "^3.9.2"
+    "testdouble": "^3.12.5"
   },
   "teenytest": {
     "plugins": [
